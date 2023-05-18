@@ -1,5 +1,6 @@
-\documentclass{scrreprt}
-\usepackage{graphicx} % Required for inserting images
+\documentclass[12pt,openright]{scrreprt}
+
+\usepackage{preambel}
 
 \title{Latex-Report-Template}
 \author{Guy Gnôle}
@@ -9,6 +10,11 @@
 
 \maketitle
 
-\section{Introduction}
+\tableofcontents
+\newpage
+
+\chapter{Introduction}
+
+\subfile{src/01 - Introduction/01 - What is LaTex}
 
 \end{document}
